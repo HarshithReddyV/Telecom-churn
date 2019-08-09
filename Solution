@@ -1,0 +1,28 @@
+1. The top 5 factors that are driving the likelihood of churn at Mobicom are, 
+  a) Average monthly minutes of use over the life of the customer (Avgmou)
+  b) Number of days (age) of current equipment (Eqpdays)
+  c) Mean number of roaming calls (roam_Mean)
+  d) Mean overage minutes of use (ovrmou_Mean)
+  e) Range of number of minutes of use (mou_Range)
+
+2. Validation of survey findings
+  a) Cost and billing - Cost and billing does influence churn at Mobicom. Mean overage minutes of use is one of the important factors driving likelihood of churn (ovrmou_Mean) as per the logistic regression model which leads to excess charges in billing. It can also be noticed that customers on non optimal rate plans (nonop_rateplan) have a higher probability of churn and it is one of the significant variables influencing churn.
+     Network and service quality - Network and service quality is an important factor influencing churn behaviour according to the logistic regression model. If the mean number of dropped or blocked data and voice calls (drop_blk_Mean) variable is higher, the probability of churn increases.
+  b) Data usage connectivity issues are indirectly turning out to be costly since they are adding up to the mean number of dropped or blocked data and voice calls (drop_blk_Mean) which is causing churn at Mobicom.
+ 
+3. Rate plan migration is a good proactive retention strategy because the customers with non optimal rate plans (nonop_rateplan) have a higher probability of influencing churn rates at mobicom indicating that rate plan migration is a good strategy to move subscribers from non optimal plans to optimal plans which reduces the possibility of churn. it is also noticed that customers with account spending limit (asl_flag_y) have a lower probability of churn.
+
+4. Proactive retention campaigns should prioritise the following customers,
+ a) Subscribers from NW_rockymountain and South Florida regions.
+ b) Customers on non optimal rate plans
+ c) Customers with higher number of unique subscribers in the household
+ d) Subscribers from Asian, Hispanic and Arab ethnicity.
+ e) Subscribers with a higher number of days (age) of current equipment (Eqpdays)
+ 
+5. From a contact list of the first 20% of the given subscriber pool the following segments are to be targeted for proactive retention campaigns,
+ a) Subscribers with a higher number of days (age) of current equipment (Eqpdays)
+ b) Subscribers with higher mean monthly revenue (Rev_mean)
+ c) Subscribers with a high Average monthly minutes of use over the life of the customer (Avgmou)
+ d) Customers whose handset price is less then 60 (Hnd_price_60)
+ e) Customers with high Range of number of minutes of use (mou_range)
+ f) Customers with higher Mean number of dropped or blocked calls (drop_blk_mean)
